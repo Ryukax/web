@@ -1,0 +1,62 @@
+from datetime import datetime
+
+success = False
+failure = False
+message = False
+while True:
+    now = datetime.now().time()
+    if now.second == 21:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 22:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 23:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 24:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 25:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 26:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 27:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 28:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 29:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 30:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second == 31:
+        success = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+        
+        
+    if now.second <= 20:
+        failure = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+    if now.second >= 32:
+        message = True
+        print("YOUR PHRASE HERE")
+        print (now.second)
+        
